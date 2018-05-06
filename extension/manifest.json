@@ -1,0 +1,19 @@
+{
+  "name": "QuickSearch",
+  "description": "Use the popup menu to search on Reddit or Wikipedia fast",
+  "version": "0.0.2",
+  "manifest_version": 2,
+  "permissions": ["activeTab", "contextMenus", "storage"],
+  "background": {
+    "scripts": ["popup.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "icons": {
+   "16": "images/globalGoogle16.png",
+   "48": "images/globalGoogle48.png",
+  "128": "images/globalGoogle128.png"
+ }
+}
